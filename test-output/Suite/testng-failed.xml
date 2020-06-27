@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validating Title of the page(failed)">
+    <classes>
+      <class name="Academy.ValidateTitle">
+        <methods>
+          <include name="ValidateTitl"/>
+          <include name="teardown"/>
+          <include name="InitBrowser"/>
+        </methods>
+      </class> <!-- Academy.ValidateTitle -->
+    </classes>
+  </test> <!-- Validating Title of the page(failed) -->
+  <test thread-count="5" name=" Data provider Homepage(failed)">
+    <classes>
+      <class name="Academy.Homepage">
+        <methods>
+          <include name="basepagenavigation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Academy.Homepage -->
+    </classes>
+  </test> <!--  Data provider Homepage(failed) -->
+  <test thread-count="5" name="ValidateNavigationBar(failed)">
+    <classes>
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="InitBrowser"/>
+          <include name="ValNavigationBar"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- ValidateNavigationBar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

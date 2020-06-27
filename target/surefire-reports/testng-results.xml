@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="224333" started-at="2020-06-21T14:31:45 IST" finished-at="2020-06-21T14:35:30 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="224333" started-at="2020-06-21T14:31:45 IST" finished-at="2020-06-21T14:35:30 IST">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="InitBrowser()[pri:0, instance:Academy.ValidateTitle@2f9f7dcf]" name="InitBrowser" is-config="true" duration-ms="22965" started-at="2020-06-21T14:32:03 IST" finished-at="2020-06-21T14:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitBrowser -->
+        <test-method status="PASS" signature="ValidateTitl()[pri:0, instance:Academy.ValidateTitle@2f9f7dcf]" name="ValidateTitl" duration-ms="660" started-at="2020-06-21T14:32:26 IST" finished-at="2020-06-21T14:32:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitl -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidateTitle@2f9f7dcf]" name="teardown" is-config="true" duration-ms="2600" started-at="2020-06-21T14:35:27 IST" finished-at="2020-06-21T14:35:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateTitle -->
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@35e2d654]" name="basepagenavigation" duration-ms="86693" started-at="2020-06-21T14:32:27 IST" data-provider="getdata" finished-at="2020-06-21T14:33:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestrictuser@jj.kk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lknkjb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non restric user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@35e2d654]" name="basepagenavigation" duration-ms="84918" started-at="2020-06-21T14:33:54 IST" data-provider="getdata" finished-at="2020-06-21T14:35:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictuser@hh.pp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mklilnkl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[only restric user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+      </class> <!-- Academy.Homepage -->
+      <class name="Academy.ValidateNavigationBar">
+        <test-method status="PASS" signature="InitBrowser()[pri:0, instance:Academy.ValidateNavigationBar@747ddf94]" name="InitBrowser" is-config="true" duration-ms="17632" started-at="2020-06-21T14:31:45 IST" finished-at="2020-06-21T14:32:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitBrowser -->
+        <test-method status="PASS" signature="ValNavigationBar()[pri:0, instance:Academy.ValidateNavigationBar@747ddf94]" name="ValNavigationBar" duration-ms="2344" started-at="2020-06-21T14:35:19 IST" finished-at="2020-06-21T14:35:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValNavigationBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidateNavigationBar@747ddf94]" name="teardown" is-config="true" duration-ms="6138" started-at="2020-06-21T14:35:21 IST" finished-at="2020-06-21T14:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
